@@ -1,29 +1,15 @@
-# Entorno virtual
+# Virtual environment
 .venv/
-venv/
 
-# Caché de Python
+# Python cache
 __pycache__/
 *.py[cod]
 
-# Configuración de VS Code
+# Pytest
+.pytest_cache/
+
+# VS Code
 .vscode/
-
-# Archivos del sistema
-.DS_Store
-Thumbs.db
-
-# Variables de entorno
-.env
-
-# Cobertura de tests
-.coverage
-htmlcov/
-
-# Distribución
-build/
-dist/
-*.egg-info/
 
 # Logs
 logs/*

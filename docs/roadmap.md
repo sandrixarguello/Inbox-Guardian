@@ -16,11 +16,11 @@ Implementar un lector de HTML.
 
 ### Tareas
 
-- [ ] Diseñar la función
-- [ ] Implementarla
-- [ ] Manejar errores
-- [ ] Escribir tests
-- [ ] Documentar
+- [x] Diseñar la función
+- [x] Implementarla
+- [x] Manejar errores
+- [x] Escribir tests
+- [x] Documentar
 
 ---
 
