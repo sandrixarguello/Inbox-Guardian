@@ -24,3 +24,7 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+
+# Logs
+logs/*
+!logs/.gitkeep
