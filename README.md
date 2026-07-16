@@ -1,29 +1,90 @@
-# 📬 Inbox Guardian
+# Inbox Guardian
 
-Inbox Guardian is an Email Deliverability & Quality Analyzer built in Python.
+Inbox Guardian es una herramienta de análisis de HTML para Email Marketing.
 
-## Project Status
+Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que puedan afectar la entregabilidad de campañas antes de realizar un envío.
 
-🚧 In Development
+---
 
-## Goals
+## Características
 
-- Analyze HTML emails
-- Calculate text/image ratio
-- Validate deliverability best practices
-- Generate QA reports
+- ✅ Lectura de archivos HTML
+- ✅ Parseo de HTML mediante BeautifulSoup
+- 🚧 Análisis de estructura HTML
+- 🚧 Análisis de imágenes
+- 🚧 Análisis de links
+- 🚧 Accesibilidad
+- 🚧 QA Score
+- 🚧 Reporte PDF
 
-## Tech Stack
+---
 
-- Python
-- BeautifulSoup
-- Streamlit
-- Pandas
+## Estado actual
 
-## Roadmap
+**Versión:** `v0.2.0`
 
-- [ ] HTML Reader
-- [ ] HTML Analyzer
-- [ ] Image Analyzer
-- [ ] Link Analyzer
-- [ ] QA Score
+### Sprint 1 ✅ Finalizado
+
+- Inicialización del proyecto
+- Arquitectura base
+- HTML Reader
+- Primer test automatizado
+
+### Sprint 2 ✅ Finalizado
+
+- HTML Parser
+- Jerarquía de excepciones personalizada
+- Tests unitarios para HTML Reader
+- Tests unitarios para HTML Parser
+- Integración de BeautifulSoup
+
+---
+
+## Tecnologías
+
+- Python 3
+- BeautifulSoup4
+- Pytest
+- Git
+- GitHub
+
+---
+
+## Documentación
+
+- docs/architecture.md
+- docs/roadmap.md
+- docs/developer-notes.md
+- docs/deliverability.md
+
+---
+
+## Licencia
+
+MIT License
+
+---
+
+## Installation
+
+```bash
+git clone ...
+cd Inbox-Guardian
+
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+```
+
+---
+
+## Running Tests
+
+```bash
+pytest
+```
+
+---
