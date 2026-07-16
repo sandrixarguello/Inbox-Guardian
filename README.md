@@ -10,7 +10,7 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 
 - ✅ Lectura de archivos HTML
 - ✅ Parseo de HTML mediante BeautifulSoup
-- 🚧 Análisis de estructura HTML
+- ✅ Clasificación de elementos HTML
 - 🚧 Análisis de imágenes
 - 🚧 Análisis de links
 - 🚧 Accesibilidad
@@ -21,7 +21,7 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 
 ## Estado actual
 
-**Versión:** `v0.2.0`
+**Versión:** `v0.3.0`
 
 ### Sprint 1 ✅ Finalizado
 
@@ -37,6 +37,19 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 - Tests unitarios para HTML Reader
 - Tests unitarios para HTML Parser
 - Integración de BeautifulSoup
+
+### Sprint 3 ✅ Finalizado
+
+- HTML Analyzer
+- Modelo `HTMLAnalysisResult`
+- Clasificación de elementos HTML
+  - Imágenes
+  - Links
+  - Tablas
+  - Encabezados
+  - Formularios
+  - Botones
+- Tests unitarios para HTML Analyzer
 
 ---
 
@@ -68,7 +81,8 @@ MIT License
 ## Installation
 
 ```bash
-git clone ...
+git clone https://github.com/sandrixarguello/Inbox-Guardian.git
+
 cd Inbox-Guardian
 
 python -m venv .venv
@@ -86,5 +100,3 @@ pip install -r requirements.txt
 ```bash
 pytest
 ```
-
----
