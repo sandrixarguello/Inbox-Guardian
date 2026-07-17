@@ -1,0 +1,2 @@
+from .html_analysis_result import HTMLAnalysisResult
+from .image_analysis_result import ImageAnalysisResult

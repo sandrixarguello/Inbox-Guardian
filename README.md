@@ -11,7 +11,7 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 - ✅ Lectura de archivos HTML
 - ✅ Parseo de HTML mediante BeautifulSoup
 - ✅ Clasificación de elementos HTML
-- 🚧 Análisis de imágenes
+- ✅ Análisis de imágenes
 - 🚧 Análisis de links
 - 🚧 Accesibilidad
 - 🚧 QA Score
@@ -21,7 +21,7 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 
 ## Estado actual
 
-**Versión:** `v0.3.0`
+**Versión:** `v0.4.0`
 
 ### Sprint 1 ✅ Finalizado
 
@@ -50,6 +50,17 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
   - Formularios
   - Botones
 - Tests unitarios para HTML Analyzer
+
+### Sprint 4 ✅ Finalizado
+
+- Image Analyzer
+- Modelo `ImageAnalysisResult`
+- Análisis de imágenes
+  - Imágenes sin ALT
+  - Imágenes locales y remotas
+  - Imágenes sin width
+  - Imágenes sin height
+- Tests unitarios para Image Analyzer
 
 ---
 

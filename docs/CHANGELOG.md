@@ -25,3 +25,12 @@ All notable changes to this project will be documented in this file.
 - HTMLAnalysisResult
 - Tests para HTML Analyzer
 - Nuevo módulo models
+
+## v0.4.0
+
+### Added
+
+- Image Analyzer module
+- ImageAnalysisResult model
+- Image Analyzer unit tests
+- Package exports through `__init__.py`
