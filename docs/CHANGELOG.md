@@ -34,3 +34,15 @@ All notable changes to this project will be documented in this file.
 - ImageAnalysisResult model
 - Image Analyzer unit tests
 - Package exports through `__init__.py`
+
+## v0.5.0
+
+### Added
+
+- Link Analyzer module
+- LinkAnalysisResult model
+- Link Analyzer unit tests
+
+### Changed
+
+- Package exports through `__init__.py`

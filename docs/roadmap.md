@@ -67,11 +67,13 @@ Analizar todos los enlaces.
 
 ### Funcionalidades
 
-- [ ] Detectar HTTP
-- [ ] Detectar HTTPS
-- [ ] Detectar UTM
-- [ ] Detectar links rotos (opcional)
-- [ ] Tests
+- [x] Detectar HTTP
+- [x] Detectar HTTPS
+- [x] Detectar UTM
+- [x] Detectar enlaces mailto:
+- [x] Detectar enlaces tel:
+- [x] Detectar enlaces sin href
+- [x] Tests
 
 ---
 
