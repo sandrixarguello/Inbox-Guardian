@@ -13,7 +13,7 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 - ✅ Clasificación de elementos HTML
 - ✅ Análisis de imágenes
 - ✅ Análisis de links
-- 🚧 Accesibilidad
+- ✅ Accesibilidad
 - 🚧 QA Score
 - 🚧 Reporte PDF
 
@@ -21,7 +21,7 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 
 ## Estado actual
 
-**Versión:** `v0.4.0`
+**Versión:** `v0.6.0`
 
 ### Sprint 1 ✅ Finalizado
 
@@ -74,6 +74,20 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
   - Detectar enlaces sin atributo href
   - Detectar enlaces con UTM's
 - Test unitarios para Link Analyzer
+
+### Sprint 6 - Finalizado ✅
+
+- Accessibility Analyzer
+- Modelo `AccessibilityAnalysisResult`
+- Análisis de accesibilidad
+  - [x] Detectar imágenes sin atributo ALT
+  - [x] Detectar ausencia de encabezados (H1–H6)
+  - [x] Detectar encabezados vacíos
+  - [x] Detectar botones sin texto
+  - [x] Detectar tablas sin encabezados (`<th>`)
+  - [x] Tests unitarios
+- Test unitarios para Accessibility Analyzer
+
 ---
 
 ## Tecnologías

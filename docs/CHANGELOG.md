@@ -46,3 +46,20 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Package exports through `__init__.py`
+
+## v0.6.0
+
+### Added
+
+- Accessibility Analyzer.
+- AccessibilityAnalysisResult model.
+- Detección de imágenes sin atributo ALT.
+- Detección de ausencia de encabezados (H1-H6).
+- Detección de encabezados vacíos.
+- Detección de botones sin texto.
+- Detección de tablas sin encabezados (`<th>`).
+- Tests unitarios para Accessibility Analyzer.
+
+### Changed
+
+- Se integró el Accessibility Analyzer con HTML Analyzer e Image Analyzer.
