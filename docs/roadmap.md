@@ -80,15 +80,16 @@ Analizar todos los enlaces.
 ## v0.6.0 - Accessibility Analyzer
 
 Objetivo:
-Detectar problemas de accesibilidad.
+Detectar problemas básicos de accesibilidad en el HTML.
 
 ### Funcionalidades
 
-- [ ] ALT obligatorio
-- [ ] Jerarquía de encabezados
-- [ ] Texto alternativo
-- [ ] Tablas accesibles
-- [ ] Tests
+- [x] Detectar imágenes sin atributo ALT
+- [x] Detectar ausencia de encabezados (H1–H6)
+- [x] Detectar encabezados vacíos
+- [x] Detectar botones sin texto
+- [x] Detectar tablas sin encabezados (`<th>`)
+- [x] Tests unitarios
 
 ---
 
