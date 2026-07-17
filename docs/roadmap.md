@@ -44,18 +44,19 @@ Recorrer la estructura HTML e identificar los elementos principales del document
 
 ---
 
-## v0.4.0 - Image Analyzer
+## v0.4.0 - Image Analyzer ✅
 
 Objetivo:
-Analizar todas las imágenes del correo.
+Analizar las imágenes del correo y obtener métricas básicas.
 
 ### Funcionalidades
 
-- [ ] Detectar imágenes sin ALT
-- [ ] Detectar imágenes remotas
-- [ ] Detectar imágenes Base64
-- [ ] Calcular superficie ocupada
-- [ ] Tests
+- [x] Contar imágenes
+- [x] Detectar imágenes sin ALT
+- [x] Detectar imágenes locales/remotas
+- [x] Detectar imágenes sin width
+- [x] Detectar imágenes sin height
+- [x] Tests
 
 ---
 
