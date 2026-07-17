@@ -62,6 +62,18 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
   - Imágenes sin height
 - Tests unitarios para Image Analyzer
 
+### Sprint 5 ✅ Finalizado
+
+- Link Analyzer
+- Modelo `LinkAnalysisResult`
+- Análisis de links
+  - Links totales
+  - Detectar enlaces HTTP y HTTPS
+  - Detectar enlaces mailto
+  - Detectar enlaces tel:
+  - Detectar enlaces sin atributo href
+  - Detectar enlaces con UTM's
+- Test unitarios para Link Analyzer
 ---
 
 ## Tecnologías

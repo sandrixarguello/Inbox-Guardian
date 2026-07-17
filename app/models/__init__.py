@@ -1,2 +1,3 @@
 from .html_analysis_result import HTMLAnalysisResult
 from .image_analysis_result import ImageAnalysisResult
+from .link_analysis_result import LinkAnalysisResult

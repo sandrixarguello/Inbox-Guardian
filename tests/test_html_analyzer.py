@@ -18,7 +18,7 @@ def test_should_find_links():
     soup = BeautifulSoup(html_content, "html.parser")
     result = analyze_html(soup)
     assert isinstance(result, HTMLAnalysisResult)
-    assert len(result.links) == 1
+    assert len(result.links) == 7
 
 def test_should_find_table():
     html_path = "examples/valid_email.html"
