@@ -12,7 +12,7 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 - ✅ Parseo de HTML mediante BeautifulSoup
 - ✅ Clasificación de elementos HTML
 - ✅ Análisis de imágenes
-- 🚧 Análisis de links
+- ✅ Análisis de links
 - 🚧 Accesibilidad
 - 🚧 QA Score
 - 🚧 Reporte PDF
