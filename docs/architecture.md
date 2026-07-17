@@ -1,61 +1,37 @@
-# 🏗️ Inbox Guardian - Architecture
+# Architecture
 
-## Objetivo
+Inbox Guardian follows a modular architecture.
 
-Definir las decisiones de arquitectura del proyecto para mantener un código escalable, mantenible y fácil de extender.
-
----
-
-# Principios de Arquitectura
-
-## Regla #1 - Una responsabilidad por módulo
-
-Cada módulo del proyecto debe tener una única responsabilidad claramente definida.
-
-Esto facilita:
-
-- el mantenimiento del código;
-- la incorporación de nuevas funcionalidades;
-- la detección y corrección de errores;
-- la reutilización de componentes;
-- la realización de pruebas unitarias.
-
-### ✔ Correcto
-
-HTML Reader
-→ Lee archivos HTML.
-
-HTML Parser
-→ Interpreta el contenido HTML.
-
-Image Analyzer
-→ Analiza imágenes del documento.
-
-Score Engine
-→ Calcula el puntaje final.
-
-### ❌ Incorrecto
-
-html_analyzer.py
-
-- Lee archivos
-- Analiza imágenes
-- Calcula ratios
-- Genera reportes
-- Calcula score
-
-Este diseño genera alto acoplamiento y dificulta el mantenimiento.
+```
+          HTML File
+               │
+               ▼
+        HTML Reader
+               │
+               ▼
+        HTML Parser
+               │
+               ▼
+       HTML Analyzer
+      ┌─────┼─────┐
+      ▼     ▼     ▼
+ Image Link Accessibility
+Analyzer Analyzer Analyzer
+      └─────┼─────┘
+            ▼
+        QA Engine
+            ▼
+      Report Generator
+```
 
 ---
 
-## Principios aplicados
+## Design Principles
 
-- Single Responsibility Principle (SRP)
-- Alta cohesión
-- Bajo acoplamiento
-- Modularidad
-- Escalabilidad
+- Single Responsibility Principle
+- Low Coupling
+- High Cohesion
+- Testability
+- Extensibility
 
----
-
-Este documento evolucionará junto con la arquitectura del proyecto.
+Each analyzer focuses on one specific concern and produces a structured result model.

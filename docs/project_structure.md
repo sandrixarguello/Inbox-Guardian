@@ -1,33 +1,69 @@
 # Project Structure
 
+```
+Inbox-Guardian/
+
+├── app/
+│   ├── analyzers/
+│   ├── exceptions/
+│   ├── models/
+│   ├── parsers/
+│   └── readers/
+│
+├── docs/
+│   └── decisions/
+│
+├── examples/
+│
+├── tests/
+│
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+└── requirements.txt
+```
+
+---
+
 ## app/
 
-Código fuente.
+Contains the application source code.
 
-## readers/
+### analyzers/
 
-Responsables de leer archivos.
+Responsible for analyzing specific parts of the HTML.
 
-## parsers/
+### models/
 
-Responsables de interpretar información.
+Data models shared between analyzers.
 
-## analyzers/
+### readers/
 
-Responsables de realizar análisis específicos.
+Read files from disk.
 
-## reports/
+### parsers/
 
-Generación de reportes.
+Convert HTML into BeautifulSoup objects.
 
-## scoring/
+### exceptions/
 
-Motor de puntuación.
+Custom project exceptions.
+
+---
 
 ## tests/
 
-Pruebas automatizadas.
+Contains unit tests.
+
+---
 
 ## examples/
 
-Archivos de ejemplo para pruebas.
+Example HTML files used during testing.
+
+---
+
+## docs/
+
+Project documentation and architecture decisions.
