@@ -36,11 +36,11 @@ Recorrer la estructura HTML e identificar los elementos principales del document
 
 ### Funcionalidades
 
-- [ ] Detectar etiquetas HTML
-- [ ] Contar imágenes
-- [ ] Contar links
-- [ ] Obtener metadatos básicos
-- [ ] Tests
+- [x] Detectar etiquetas HTML
+- [x] Contar imágenes
+- [x] Contar links
+- [x] Obtener metadatos básicos
+- [x] Tests
 
 ---
 

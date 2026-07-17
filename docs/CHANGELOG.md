@@ -16,3 +16,12 @@ All notable changes to this project will be documented in this file.
 
 - Improved project architecture.
 - Organized modules into readers, parsers and exceptions.
+
+## v0.3.0
+
+### Added
+
+- HTML Analyzer
+- HTMLAnalysisResult
+- Tests para HTML Analyzer
+- Nuevo módulo models
