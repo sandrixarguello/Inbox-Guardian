@@ -78,6 +78,12 @@ def _calculate_link_score(link_result):
     if link_result.links_without_href > 0:
         score -= link_result.links_without_href * LINK_WITHOUT_HREF
 
+    if link_result.mailto_links > 0:
+        score -= link_result.mailto_links * MAILTO_LINK
+
+    if link_result.tel_links > 0:
+        score -= link_result.tel_links * TEL_LINK
+
     return max(score, 0)
 
 

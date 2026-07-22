@@ -91,9 +91,9 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 ### Sprint 7 🚧 En progreso
 
 - [x] Motor de cálculo de Score
-- [ ] Reglas de puntuación
+- [x] Reglas de puntuación
 - [x] Score de Imágenes
-- [ ] Score de Links (pendiente)
+- [x] Score de Links
 - [ ] Score de Accesibilidad (pendiente)
 - [ ] Score Final (pendiente)
 - [ ] Tests del Scoring Engine (en progreso)

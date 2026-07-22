@@ -72,4 +72,5 @@ All notable changes to this project will be documented in this file.
 - Sistema de reglas de puntuación
 - Modelo `QAScoreResult`
 - Cálculo de Score para imágenes
+- Cálculo de Score para links
 - Primeros tests del Scoring Engine

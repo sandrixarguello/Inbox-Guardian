@@ -104,7 +104,7 @@ Asignar un puntaje general al HTML.
 - [x] Estructura del Scoring Engine
 - [x] Reglas de puntuación
 - [x] Score de imágenes
-- [ ] Score de links
+- [x] Score de links
 - [ ] Score de accesibilidad
 - [ ] Score final
 - [ ] Calificación (Grade)
