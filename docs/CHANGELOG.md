@@ -63,3 +63,13 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Se integró el Accessibility Analyzer con HTML Analyzer e Image Analyzer.
+
+## Unreleased
+
+### Added
+
+- QA Score Engine
+- Sistema de reglas de puntuación
+- Modelo `QAScoreResult`
+- Cálculo de Score para imágenes
+- Primeros tests del Scoring Engine

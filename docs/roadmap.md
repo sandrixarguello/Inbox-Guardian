@@ -100,10 +100,16 @@ Asignar un puntaje general al HTML.
 
 ### Funcionalidades
 
-- [ ] Score por imágenes
-- [ ] Score por links
-- [ ] Score por accesibilidad
+- [x] Modelo `QAScoreResult`
+- [x] Estructura del Scoring Engine
+- [x] Reglas de puntuación
+- [x] Score de imágenes
+- [ ] Score de links
+- [ ] Score de accesibilidad
 - [ ] Score final
+- [ ] Calificación (Grade)
+- [ ] Resumen automático
+- [ ] Tests completos
 
 ---
 
