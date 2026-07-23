@@ -63,3 +63,38 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Se integró el Accessibility Analyzer con HTML Analyzer e Image Analyzer.
+
+# Changelog
+
+## [v0.7.0] - QA Scoring Engine
+
+### ✨ Added
+
+- Implemented QA Score Engine.
+- Added configurable scoring rules.
+- Added image quality score calculation.
+- Added link quality score calculation.
+- Added accessibility quality score calculation.
+- Added weighted total QA score calculation.
+- Added quality grades (A, B and C).
+- Added automatic quality summary generation.
+
+### 🧪 Tests
+
+- Added unit tests for image scoring.
+- Added unit tests for link scoring.
+- Added unit tests for accessibility scoring.
+- Added isolated HTML fixtures for scoring tests.
+- Total automated tests: **45 passing**.
+
+### 🏗️ Architecture
+
+- Introduced the Scoring Engine layer.
+- Kept analyzers independent from the scoring system.
+- Centralized score calculation through `QAScoreResult`.
+
+### 📚 Documentation
+
+- Updated README.
+- Updated Roadmap.
+- Updated Architecture documentation.

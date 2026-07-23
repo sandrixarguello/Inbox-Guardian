@@ -13,7 +13,7 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 - ✅ Clasificación de elementos HTML
 - ✅ Análisis de imágenes
 - ✅ Análisis de links
-- ✅ Accesibilidad
+- ✅ Análisis de accesibilidad
 - 🚧 QA Score
 - 🚧 Reporte PDF
 
@@ -87,6 +87,16 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
   - [x] Detectar tablas sin encabezados (`<th>`)
   - [x] Tests unitarios
 - Test unitarios para Accessibility Analyzer
+
+### Sprint 7 - Finalizado ✅
+
+- [x] Image score
+- [x] Link score
+- [x] Accessibility score
+- [x] Weighted total score
+- [x] Letter grades
+- [x] Summary generation
+- [x] Unit tests
 
 ---
 
