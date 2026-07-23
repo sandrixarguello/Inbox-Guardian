@@ -104,13 +104,25 @@ Detectar problemas básicos de accesibilidad en el HTML.
 - [x] Unit tests
 ---
 
-## v0.8.0 🚧 Report Generator
+## v0.8.0 - Report Generator ✅ Completado
 
-- [x] InboxGuardianReport
-- [x] Consolidate analyzer results
-- [ ] JSON export (pendiente)
-- [ ] Console report (pendiente)
-- [ ] PDF report (pendiente)
+- HTML Reader
+- HTML Parser
+- HTML Analyzer
+- Image Analyzer
+- Link Analyzer
+- Accessibility Analyzer
+- QA Score Engine
+- Report Generator
+
+---
+
+## 🚧 Próximamente
+
+- Command Line Interface (CLI)
+- JSON Export
+- PDF Report
+- HTML Report
 ---
 
 ## v0.9.0 - CLI

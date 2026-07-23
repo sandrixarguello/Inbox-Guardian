@@ -100,12 +100,14 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 
 ### Sprint 8 - En proceso 🚧
 
-- [x] InboxGuardianReport
-- [x] Consolidate analyzer results
-- [x] Test unitarios para InboxGuardianReport
-- [ ] JSON export (pendiente)
-- [ ] Console report (pendiente)
-- [ ] PDF report (pendiente)
+Se incorpora el **Report Generator**, responsable de consolidar todos los resultados del análisis en un único objeto (`InboxGuardianReport`).
+
+### Funcionalidades
+
+- Consolidación de resultados de todos los analizadores.
+- Integración del QA Score.
+- Modelo `InboxGuardianReport`.
+- Tests unitarios del Report Generator.
 ---
 
 ## Tecnologías
