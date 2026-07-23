@@ -3,3 +3,4 @@ from .image_analysis_result import ImageAnalysisResult
 from .link_analysis_result import LinkAnalysisResult
 from .accessibility_analysis_result import AccessibilityAnalysisResult
 from .qa_score_analysis import QAScoreResult
+from .inbox_guardian_report import InboxGuardianReport

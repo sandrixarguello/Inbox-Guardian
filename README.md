@@ -98,6 +98,14 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
 - [x] Summary generation
 - [x] Unit tests
 
+### Sprint 8 - En proceso 🚧
+
+- [x] InboxGuardianReport
+- [x] Consolidate analyzer results
+- [x] Test unitarios para InboxGuardianReport
+- [ ] JSON export (pendiente)
+- [ ] Console report (pendiente)
+- [ ] PDF report (pendiente)
 ---
 
 ## Tecnologías
