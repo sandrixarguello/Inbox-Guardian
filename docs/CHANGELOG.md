@@ -98,3 +98,36 @@ All notable changes to this project will be documented in this file.
 - Updated README.
 - Updated Roadmap.
 - Updated Architecture documentation.
+
+# v0.8.0 — Report Generator
+
+## ✨ Added
+
+- Se implementa `ReportGenerator`.
+- Se incorpora el modelo `InboxGuardianReport`.
+- Se consolidan los resultados de:
+  - HTML Analyzer
+  - Image Analyzer
+  - Link Analyzer
+  - Accessibility Analyzer
+  - QA Score Engine.
+- Se agregan tests unitarios para el Report Generator.
+
+## 🧪 Tests
+
+- 51 tests ejecutados.
+- Todos los tests exitosos (`51 passed`).
+
+## 🏗 Arquitectura
+
+El pipeline queda conformado de la siguiente manera:
+
+Reader
+→ Parser
+→ HTML Analyzer
+→ Image Analyzer
+→ Link Analyzer
+→ Accessibility Analyzer
+→ QA Score Engine
+→ Report Generator
+→ InboxGuardianReport
