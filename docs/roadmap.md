@@ -106,11 +106,11 @@ Detectar problemas básicos de accesibilidad en el HTML.
 
 ## v0.8.0 🚧 Report Generator
 
-- [ ] InboxGuardianReport
-- [ ] Consolidate analyzer results
-- [ ] JSON export
-- [ ] Console report
-- [ ] PDF report
+- [x] InboxGuardianReport
+- [x] Consolidate analyzer results
+- [ ] JSON export (pendiente)
+- [ ] Console report (pendiente)
+- [ ] PDF report (pendiente)
 ---
 
 ## v0.9.0 - CLI
