@@ -93,38 +93,24 @@ Detectar problemas básicos de accesibilidad en el HTML.
 
 ---
 
-## v0.7.0 - QA Score
+## v0.7.0 ✅ QA Scoring Engine
 
-Objetivo:
-Asignar un puntaje general al HTML.
-
-### Funcionalidades
-
-- [x] Modelo `QAScoreResult`
-- [x] Estructura del Scoring Engine
-- [x] Reglas de puntuación
-- [x] Score de imágenes
-- [x] Score de links
-- [ ] Score de accesibilidad
-- [ ] Score final
-- [ ] Calificación (Grade)
-- [ ] Resumen automático
-- [ ] Tests completos
-
+- [x] Image score
+- [x] Link score
+- [x] Accessibility score
+- [x] Weighted total score
+- [x] Letter grades
+- [x] Summary generation
+- [x] Unit tests
 ---
 
-## v0.8.0 - PDF Report
+## v0.8.0 🚧 Report Generator
 
-Objetivo:
-Generar un reporte profesional.
-
-### Funcionalidades
-
-- [ ] Reporte PDF
-- [ ] Resumen ejecutivo
-- [ ] Recomendaciones
-- [ ] Score final
-
+- [ ] InboxGuardianReport
+- [ ] Consolidate analyzer results
+- [ ] JSON export
+- [ ] Console report
+- [ ] PDF report
 ---
 
 ## v0.9.0 - CLI

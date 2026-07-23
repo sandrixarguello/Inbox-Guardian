@@ -88,15 +88,15 @@ Su objetivo es ayudar a equipos de CRM y Marketing a detectar problemas que pued
   - [x] Tests unitarios
 - Test unitarios para Accessibility Analyzer
 
-### Sprint 7 🚧 En progreso
+### Sprint 7 - Finalizado ✅
 
-- [x] Motor de cálculo de Score
-- [x] Reglas de puntuación
-- [x] Score de Imágenes
-- [x] Score de Links
-- [ ] Score de Accesibilidad (pendiente)
-- [ ] Score Final (pendiente)
-- [ ] Tests del Scoring Engine (en progreso)
+- [x] Image score
+- [x] Link score
+- [x] Accessibility score
+- [x] Weighted total score
+- [x] Letter grades
+- [x] Summary generation
+- [x] Unit tests
 
 ---
 
